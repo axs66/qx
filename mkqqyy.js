@@ -17,7 +17,7 @@ if (body) {
     
       obj.data.song_name = originalName + "-" + originalSinger;
       // 将歌手改为固定文本“点击播放—>”
-      obj.data.song_singer = "Axs电台播放 >>>";
+      obj.data.song_singer = "W先生定制电台>>>";
       // 修改封面为指定链接
       obj.data.cover = "http://fmc-75014.picgzc.qpic.cn/consult_viewer_pic__cff92031-5429-42d4-a3fe-5ddcd20b13b6_1741445606820.jpg";
     }
