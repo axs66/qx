@@ -1,29 +1,30 @@
-let body = $response.body;
+// mikoto - 修改点歌卡片的封面
+//使用方法：圈x 添加主机名  api.dragonlongzhu.cn
+//修改本配置的文件名为mkqqyy.js
+//把这个配置放到文件app-quantumultx-Scripts
+//修改本配置显示文本和封面链接
+//然后点歌
 
+
+let body = $response.body;
 if (body) {
   try {
     let obj = JSON.parse(body);
-
-    if (obj?.data) {
-      // 读取原始歌曲名和歌手名，并提供默认值
-      let originalName = obj.data.song_name?.trim() || "未知歌曲";
-      let originalSinger = obj.data.song_singer?.trim() || "未知歌手";
-
-      // 修改歌曲名称（格式：歌曲名 - 歌手名）
-      obj.data.song_name = `${originalName} - ${originalSinger}`;
-
-      // 修改歌手名为固定文本
+    if (obj && obj.data) {
+   
+      let originalName = obj.data.song_name || "";
+      let originalSinger = obj.data.song_singer || "";
+    
+      obj.data.song_name = originalName + "-" + originalSinger;
+      // 将歌手改为固定文本“点击播放—>”
       obj.data.song_singer = "Axs电台播放 >>>";
-
-      // 替换封面图片链接
-      obj.data.cover = "https://api.yujn.cn/api/upload_tx.php?url=img.xiyan.pro/i/2025/03/08/1171xqi.jpeg";
+      // 修改封面为指定链接
+      obj.data.cover = "http://fmc-75014.picgzc.qpic.cn/consult_viewer_pic__cff92031-5429-42d4-a3fe-5ddcd20b13b6_1741445606820.jpg";
     }
-
-    $done({ body: JSON.stringify(obj) });
-
-  } catch (error) {
-    console.log("【Axs电台】解析失败:", error.message);
-    $done({ body });
+    $done({body: JSON.stringify(obj)});
+  } catch (e) {
+    console.log("解析失败:", e);
+    $done({body});
   }
 } else {
   $done({});
