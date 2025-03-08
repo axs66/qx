@@ -16,7 +16,7 @@ if (body) {
       obj.data.song_singer = "Axs电台播放 >>>";
 
       // 替换封面图片链接
-      obj.data.cover = "https://ipaxxs.cn/yibazhan/images/axs.jpg";
+      obj.data.cover = "https://api.yujn.cn/api/upload_tx.php?url=img.xiyan.pro/i/2025/03/08/1171xqi.jpeg";
     }
 
     $done({ body: JSON.stringify(obj) });
