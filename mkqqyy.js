@@ -11,7 +11,7 @@ if (body) {
       // 将歌手改为固定文本“点击播放—>”
       obj.data.song_singer = "Axs电台   播放>>>";
       // 修改封面为指定链接
-      obj.data.cover = "http://q4.qlogo.cn/headimg_dl?dst_uin=1317208960&spec=640";
+      obj.data.cover = "http://q4.qlogo.cn/headimg_dl?dst_uin=1107621373&spec=640";
     }
     $done({body: JSON.stringify(obj)});
   } catch (e) {
