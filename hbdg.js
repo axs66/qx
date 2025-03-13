@@ -1,6 +1,8 @@
-const customTitle = "微信号Soul95588";
-const customArtist = "初见：人生得意须尽欢，莫使金樽空对月";
-const customCover = `https://q4.qlogo.cn/headimg_dl?dst_uin=1317208960&spec=640&_ts=${Date.now()}`;
+// const customTitle = "微信号：VCR66T";
+const customArtist = "恭喜发财，大吉大利";
+// const customCover = `https://q4.qlogo.cn/headimg_dl?dst_uin=1317208960&spec=640&_ts=${Date.now()}`;
+const customCover = `http://fmc-75014.picgzc.qpic.cn/consult_viewer_pic__9c0d1d90-5215-4e6d-90e9-33e3f9233fc6_1741840087731.jpg?param=130y130&_ts=${Date.now()}`;
+
 
 let body = $response.body;
 let obj = JSON.parse(body);
