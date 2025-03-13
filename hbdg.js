@@ -1,6 +1,6 @@
-const customTitle = "微信号：VCR66T";
-const customArtist = "恭喜发财，大吉大利";
-const customCover = `https://fmc-75014.picgzc.qpic.cn/consult_viewer_pic__9c0d1d90-5215-4e6d-90e9-33e3f9233fc6_1741840087731.jpg?param=130y130&_ts=${Date.now()}`;
+const customTitle = "恭喜发财，大吉大利";
+const customArtist = "ㅤㅤㅤㅤㅤㅤㅤㅤ";
+const customCover = `http://fmc-75014.picgzc.qpic.cn/consult_viewer_pic__16e6b048-a625-481f-ac4f-174642e8051f_1741840724601.jpg?param=130y130&_ts=${Date.now()}`;
 
 let body = $response.body;
 
