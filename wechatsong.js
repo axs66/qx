@@ -1,6 +1,6 @@
  #!name=点歌卡片
  #!desc=黄白选网易，mikoto选qq
- #!openUrl=https://github.com/axs66/repo
+ #!openUrl=https://axs66.github.io/repo
  #!author=A先生[https://qq.ios999.vip/axs/Axs.jpg]
  #!homepage=https://axs66.github.io/repo
  #!icon=http://q4.qlogo.cn/headimg_dl?dst_uin=1317208960&spec=640
