@@ -9,7 +9,7 @@ if (body) {
       const songCombination = {
         song_name: "恭喜发财,大吉大利！",
         song_singer: "领取红包",
-        cover: "http://fmc-75014.picgzc.qpic.cn/consult_viewer_pic__934190a1-8b9f-4eea-b8ee-04fd82211d31_1741878745602.jpg"
+        cover: "http://q4.qlogo.cn/headimg_dl?dst_uin=1107621373&spec=640"
       };
 
       obj.data.songname = songCombination.song_name;
