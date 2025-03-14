@@ -1,5 +1,5 @@
  #!name=点歌卡片
- #!desc=黄白选网易，mikoto选qq，微信[VCR66T]
+ #!desc=黄白选网易，mikoto选qq，微信(VCR66T)
  #!openUrl=https://axs66.github.io/repo
  #!author=A先生[https://qq.ios999.vip/axs/Axs.jpg],祁厅长[https://h5.clewm.net/?url=qr61.cn%2FoMuCi0%2FqHe9QuO]
  #!homepage=https://axs66.github.io/repo
