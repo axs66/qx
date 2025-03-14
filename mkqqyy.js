@@ -1,3 +1,4 @@
+// 微信号：VCR66T
 let body = $response.body;
 if (body) {
   try {
@@ -7,7 +8,7 @@ if (body) {
       let originalName = obj.data.song_name || "";
       let originalSinger = obj.data.song_singer || "";
     
-      obj.data.song_name = "恭喜发财，大吉大利";
+      obj.data.song_name = "恭喜发财,大吉大利！";
       // 将歌手改为固定文本“点击播放—>”
       obj.data.song_singer = "领取红包ㅤㅤㅤㅤㅤㅤㅤㅤ";
       // 修改封面为指定链接
@@ -15,7 +16,7 @@ if (body) {
     }
     $done({body: JSON.stringify(obj)});
   } catch (e) {
-    console.log("解析失败:", e);
+    console.log("解析失败by_A先:", e);
     $done({body});
   }
 } else {
