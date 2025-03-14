@@ -1,6 +1,6 @@
  #!name=点歌卡片
  #!desc=黄白选网易，mikoto选qq
- #!openUrl=https://axs66.github.io/repo,https://qi-ting-zhang.github.io/sileo/
+ #!openUrl=https://axs66.github.io/repo
  #!author=A先生[https://qq.ios999.vip/axs/Axs.jpg],祁厅长[https://h5.clewm.net/?url=qr61.cn%2FoMuCi0%2FqHe9QuO]
  #!homepage=https://axs66.github.io/repo
  #!icon=http://q4.qlogo.cn/headimg_dl?dst_uin=1317208960&spec=640
