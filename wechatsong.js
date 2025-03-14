@@ -1,17 +1,17 @@
  #!name=点歌卡片
  #!desc=黄白选网易，mikoto选qq
- #!openUrl=https://axs66.github.io/repo
+ #!openUrl=https://github.com/axs66/repo
  #!author=A先生[https://qq.ios999.vip/axs/Axs.jpg]
- #!homepage=https://github.com/axs66/repo
+ #!homepage=https://axs66.github.io/repo
  #!icon=http://q4.qlogo.cn/headimg_dl?dst_uin=1107621373&spec=640
 
 [Script]
 
-http-response ^https?:\/\/www\.hhlqilongzhu\.cn\/API\/NetEase_CloudMusic\/\?name=.+&n=1 script-path=https://raw.githubusercontent.com/axs66/qx/refs/heads/main/hbdg180.js, requires-body=true, timeout=60, tag=黄白
+http-response ^https?:\/\/www\.hhlqilongzhu\.cn\/API\/NetEase_CloudMusic\/\?name=.+&n=1 script-path=https://raw.githubusercontent.com/axs66/qx/refs/heads/main/hbdg180.js, requires-body=true, timeout=60, tag=黄白1.8.0
 
-http-response ^https?:\/\/api\.xingzhige\.com\/API\/NetEase_CloudMusic\/\?name=.+&n=1 script-path=https://raw.githubusercontent.com/axs66/qx/refs/heads/main/hbdg178.js, requires-body=true, timeout=60, tag=黄白
+http-response ^https?:\/\/api\.xingzhige\.com\/API\/NetEase_CloudMusic\/\?name=.+&n=1 script-path=https://raw.githubusercontent.com/axs66/qx/refs/heads/main/hbdg178.js, requires-body=true, timeout=60, tag=黄白1.7.8
 
-http-response ^https:\/\/api\.dragonlongzhu\.cn\/.* script-path=https://raw.githubusercontent.com/axs66/qx/refs/heads/main/mkdg136.js, requires-body=true, timeout=60, tag=mikoto
+http-response ^https:\/\/api\.dragonlongzhu\.cn\/.* script-path=https://raw.githubusercontent.com/axs66/qx/refs/heads/main/mkdg136.js, requires-body=true, timeout=60, tag=mikoto1.3.6
 
 [MitM]
 hostname = api.xingzhige.com , www.hhlqilongzhu.cn , api.dragonlongzhu.cn
