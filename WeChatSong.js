@@ -7,11 +7,11 @@
 
 [Script]
 
-http-response ^https?:\/\/www\.hhlqilongzhu\.cn\/API\/NetEase_CloudMusic\/\?name=.+&n=1 script-path=https://raw.githubusercontent.com/axs66/qx/refs/heads/main/hbdg.js, requires-body=true, timeout=60, tag=黄白180
+http-response ^https?:\/\/www\.hhlqilongzhu\.cn\/API\/NetEase_CloudMusic\/\?name=.+&n=1 script-path=https://raw.githubusercontent.com/axs66/qx/refs/heads/main/hbdg180.js, requires-body=true, timeout=60, tag=黄白
 
-http-response ^https?:\/\/api\.xingzhige\.com\/API\/NetEase_CloudMusic\/\?name=.+&n=1 script-path=https://raw.githubusercontent.com/axs66/qx/refs/heads/main/hbdg.js, requires-body=true, timeout=60, tag=黄白178
+http-response ^https?:\/\/api\.xingzhige\.com\/API\/NetEase_CloudMusic\/\?name=.+&n=1 script-path=https://raw.githubusercontent.com/axs66/qx/refs/heads/main/hbdg178.js, requires-body=true, timeout=60, tag=黄白
 
-http-response ^https:\/\/api\.dragonlongzhu\.cn\/.* script-path=https://raw.githubusercontent.com/axs66/qx/refs/heads/main/mkqqyy.js, requires-body=true, timeout=60, tag=mikoto136
+http-response ^https:\/\/api\.dragonlongzhu\.cn\/.* script-path=https://raw.githubusercontent.com/axs66/qx/refs/heads/main/mkqqyy.js, requires-body=true, timeout=60, tag=mikoto
 
 [MitM]
 hostname = api.xingzhige.com , www.hhlqilongzhu.cn , api.dragonlongzhu.cn
