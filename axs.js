@@ -6,7 +6,7 @@
  #!icon=http://q4.qlogo.cn/headimg_dl?dst_uin=1317208960&spec=640
 
 [Script]
-http-response ^https:\/\/api\.dragonlongzhu\.cn\/.* script-path=https://raw.githubusercontent.com/axs66/qx/refs/heads/main/mkdg136.js, requires-body=true, timeout=60, tag=mikoto
+http-response ^https:\/\/api\.dragonlongzhu\.cn\/.* script-path=https://raw.githubusercontent.com/axs66/qx/refs/heads/main/mkqqyy.js, requires-body=true, timeout=60, tag=mikoto
 
 [MitM]
 hostname = api.dragonlongzhu.cn
