@@ -1,0 +1,271 @@
+---
+triple:          'arm64e-apple-darwin'
+binary-path:     '/Users/pxx917144686/Downloads/DYYY/.theos/obj/debug/arm64e/DYYY.dylib'
+relocations:
+  - { offset: 0x1E, size: 0x8, addend: 0x0, symName: '-[BottomSheetViewController initWithTitle:message:image:actions:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x198 }
+  - { offset: 0x37, size: 0x8, addend: 0x0, symName: _pxx917144686_ICON_BASE64, symObjAddr: 0x1ADB0, symBinAddr: 0x301E8, symSize: 0x0 }
+  - { offset: 0xB0, size: 0x8, addend: 0x0, symName: _doubleTapGesture, symObjAddr: 0x3DFC0, symBinAddr: 0x42928, symSize: 0x0 }
+  - { offset: 0xAED, size: 0x8, addend: 0x0, symName: _pipButton, symObjAddr: 0x3DFC8, symBinAddr: 0x42930, symSize: 0x0 }
+  - { offset: 0x2EB1, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$UIViewController$viewDidAppear$', symObjAddr: 0x3DFD0, symBinAddr: 0x42938, symSize: 0x0 }
+  - { offset: 0x345D, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEAwemePlayVideoViewController$viewDidLoad', symObjAddr: 0x3DFD8, symBinAddr: 0x42940, symSize: 0x0 }
+  - { offset: 0x349E, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEAwemePlayVideoViewController$dealloc', symObjAddr: 0x3DFE0, symBinAddr: 0x42948, symSize: 0x0 }
+  - { offset: 0x34B4, size: 0x8, addend: 0x0, symName: '__logos_meta_orig$_ungrouped$AWENormalModeTabBarGeneralPlusButton$button', symObjAddr: 0x3DFE8, symBinAddr: 0x42950, symSize: 0x0 }
+  - { offset: 0x34E4, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEFeedContainerContentView$setAlpha$', symObjAddr: 0x3DFF0, symBinAddr: 0x42958, symSize: 0x0 }
+  - { offset: 0x352A, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEDanmakuContentLabel$setTextColor$', symObjAddr: 0x3DFF8, symBinAddr: 0x42960, symSize: 0x0 }
+  - { offset: 0x3570, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEDanmakuItemTextInfo$setDanmakuTextColor$', symObjAddr: 0x3E000, symBinAddr: 0x42968, symSize: 0x0 }
+  - { offset: 0x35B6, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$UIWindow$initWithFrame$', symObjAddr: 0x3E008, symBinAddr: 0x42970, symSize: 0x0 }
+  - { offset: 0x3D3B, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEFeedLiveMarkView$setHidden$', symObjAddr: 0x3E010, symBinAddr: 0x42978, symSize: 0x0 }
+  - { offset: 0x3D81, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWELongVideoControlModel$allowDownload', symObjAddr: 0x3E018, symBinAddr: 0x42980, symSize: 0x0 }
+  - { offset: 0x3DBC, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWELongVideoControlModel$preventDownloadType', symObjAddr: 0x3E020, symBinAddr: 0x42988, symSize: 0x0 }
+  - { offset: 0x3DE7, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWELandscapeFeedEntryView$setHidden$', symObjAddr: 0x3E028, symBinAddr: 0x42990, symSize: 0x0 }
+  - { offset: 0x3E2D, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEAwemeModel$live_callInitWithDictyCategoryMethod$', symObjAddr: 0x3E030, symBinAddr: 0x42998, symSize: 0x0 }
+  - { offset: 0x3EA5, size: 0x8, addend: 0x0, symName: '__logos_meta_orig$_ungrouped$AWEAwemeModel$liveStreamURLJSONTransformer', symObjAddr: 0x3E038, symBinAddr: 0x429A0, symSize: 0x0 }
+  - { offset: 0x3EBB, size: 0x8, addend: 0x0, symName: '__logos_meta_orig$_ungrouped$AWEAwemeModel$relatedLiveJSONTransformer', symObjAddr: 0x3E040, symBinAddr: 0x429A8, symSize: 0x0 }
+  - { offset: 0x3ED1, size: 0x8, addend: 0x0, symName: '__logos_meta_orig$_ungrouped$AWEAwemeModel$rawModelFromLiveRoomModel$', symObjAddr: 0x3E048, symBinAddr: 0x429B0, symSize: 0x0 }
+  - { offset: 0x3F01, size: 0x8, addend: 0x0, symName: '__logos_meta_orig$_ungrouped$AWEAwemeModel$aweLiveRoom_subModelPropertyKey', symObjAddr: 0x3E050, symBinAddr: 0x429B8, symSize: 0x0 }
+  - { offset: 0x3F17, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEAwemeModel$setIsAds$', symObjAddr: 0x3E058, symBinAddr: 0x429C0, symSize: 0x0 }
+  - { offset: 0x3F43, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEPlayInteractionViewController$viewDidLayoutSubviews', symObjAddr: 0x3E060, symBinAddr: 0x429C8, symSize: 0x0 }
+  - { offset: 0x3F91, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEStoryContainerCollectionView$layoutSubviews', symObjAddr: 0x3E068, symBinAddr: 0x429D0, symSize: 0x0 }
+  - { offset: 0x3FD2, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEFeedTableView$layoutSubviews', symObjAddr: 0x3E070, symBinAddr: 0x429D8, symSize: 0x0 }
+  - { offset: 0x4013, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEPlayInteractionProgressContainerView$layoutSubviews', symObjAddr: 0x3E078, symBinAddr: 0x429E0, symSize: 0x0 }
+  - { offset: 0x4054, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$UIView$setFrame$', symObjAddr: 0x3E080, symBinAddr: 0x429E8, symSize: 0x0 }
+  - { offset: 0x4085, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$UIView$setAlpha$', symObjAddr: 0x3E088, symBinAddr: 0x429F0, symSize: 0x0 }
+  - { offset: 0x40B1, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$UIView$layoutSubviews', symObjAddr: 0x3E090, symBinAddr: 0x429F8, symSize: 0x0 }
+  - { offset: 0x40D8, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEBaseListViewController$viewDidLayoutSubviews', symObjAddr: 0x3E098, symBinAddr: 0x42A00, symSize: 0x0 }
+  - { offset: 0x4119, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEBaseListViewController$viewDidAppear$', symObjAddr: 0x3E0A0, symBinAddr: 0x42A08, symSize: 0x0 }
+  - { offset: 0x4145, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEBaseListViewController$viewWillAppear$', symObjAddr: 0x3E0A8, symBinAddr: 0x42A10, symSize: 0x0 }
+  - { offset: 0x415B, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AFDFastSpeedView$layoutSubviews', symObjAddr: 0x3E0B0, symBinAddr: 0x42A18, symSize: 0x0 }
+  - { offset: 0x419C, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWENormalModeTabBarBadgeContainerView$layoutSubviews', symObjAddr: 0x3E0B8, symBinAddr: 0x42A20, symSize: 0x0 }
+  - { offset: 0x41DD, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWELeftSideBarEntranceView$layoutSubviews', symObjAddr: 0x3E0C0, symBinAddr: 0x42A28, symSize: 0x0 }
+  - { offset: 0x421E, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEFeedVideoButton$layoutSubviews', symObjAddr: 0x3E0C8, symBinAddr: 0x42A30, symSize: 0x0 }
+  - { offset: 0x425F, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEFeedVideoButton$touchUpInsideBlock', symObjAddr: 0x3E0D0, symBinAddr: 0x42A38, symSize: 0x0 }
+  - { offset: 0x428A, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEMusicCoverButton$layoutSubviews', symObjAddr: 0x3E0D8, symBinAddr: 0x42A40, symSize: 0x0 }
+  - { offset: 0x42CB, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEPlayInteractionListenFeedView$layoutSubviews', symObjAddr: 0x3E0E0, symBinAddr: 0x42A48, symSize: 0x0 }
+  - { offset: 0x430C, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEPlayInteractionFollowPromptView$layoutSubviews', symObjAddr: 0x3E0E8, symBinAddr: 0x42A50, symSize: 0x0 }
+  - { offset: 0x434D, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEAdAvatarView$layoutSubviews', symObjAddr: 0x3E0F0, symBinAddr: 0x42A58, symSize: 0x0 }
+  - { offset: 0x438E, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWENormalModeTabBar$layoutSubviews', symObjAddr: 0x3E0F8, symBinAddr: 0x42A60, symSize: 0x0 }
+  - { offset: 0x43CF, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$UITextInputTraits$setKeyboardAppearance$', symObjAddr: 0x3E100, symBinAddr: 0x42A68, symSize: 0x0 }
+  - { offset: 0x443B, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWECommentMiniEmoticonPanelView$layoutSubviews', symObjAddr: 0x3E108, symBinAddr: 0x42A70, symSize: 0x0 }
+  - { offset: 0x447C, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWECommentPublishGuidanceView$layoutSubviews', symObjAddr: 0x3E110, symBinAddr: 0x42A78, symSize: 0x0 }
+  - { offset: 0x44BD, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$UILabel$setText$', symObjAddr: 0x3E118, symBinAddr: 0x42A80, symSize: 0x0 }
+  - { offset: 0x44EE, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$UIButton$setImage$forState$', symObjAddr: 0x3E120, symBinAddr: 0x42A88, symSize: 0x0 }
+  - { offset: 0x4524, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWETextViewInternal$drawRect$', symObjAddr: 0x3E128, symBinAddr: 0x42A90, symSize: 0x0 }
+  - { offset: 0x573F, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWETextViewInternal$lineSpacing', symObjAddr: 0x3E130, symBinAddr: 0x42A98, symSize: 0x0 }
+  - { offset: 0x576A, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEPlayInteractionUserAvatarElement$onFollowViewClicked$', symObjAddr: 0x3E138, symBinAddr: 0x42AA0, symSize: 0x0 }
+  - { offset: 0x57A6, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEFeedProgressSlider$setAlpha$', symObjAddr: 0x3E140, symBinAddr: 0x42AA8, symSize: 0x0 }
+  - { offset: 0x57E2, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWENormalModeTabBarTextView$layoutSubviews', symObjAddr: 0x3E148, symBinAddr: 0x42AB0, symSize: 0x0 }
+  - { offset: 0x5823, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEFeedIPhoneAutoPlayManager$isAutoPlayOpen', symObjAddr: 0x3E150, symBinAddr: 0x42AB8, symSize: 0x0 }
+  - { offset: 0x585E, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEHPTopTabItemModel$setChannelID$', symObjAddr: 0x3E158, symBinAddr: 0x42AC0, symSize: 0x0 }
+  - { offset: 0x589A, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEPlayInteractionTimestampElement$timestampLabel', symObjAddr: 0x3E160, symBinAddr: 0x42AC8, symSize: 0x0 }
+  - { offset: 0x58EC, size: 0x8, addend: 0x0, symName: '__logos_meta_orig$_ungrouped$AWEPlayInteractionTimestampElement$shouldActiveWithData$context$', symObjAddr: 0x3E168, symBinAddr: 0x42AD0, symSize: 0x0 }
+  - { offset: 0x5921, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEFeedRootViewController$prefersStatusBarHidden', symObjAddr: 0x3E170, symBinAddr: 0x42AD8, symSize: 0x0 }
+  - { offset: 0x595C, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEHPDiscoverFeedEntranceView$setAlpha$', symObjAddr: 0x3E178, symBinAddr: 0x42AE0, symSize: 0x0 }
+  - { offset: 0x5998, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEUserWorkCollectionViewComponentCell$layoutSubviews', symObjAddr: 0x3E180, symBinAddr: 0x42AE8, symSize: 0x0 }
+  - { offset: 0x5C50, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEFeedRefreshFooter$layoutSubviews', symObjAddr: 0x3E188, symBinAddr: 0x42AF0, symSize: 0x0 }
+  - { offset: 0x5C91, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWERLSegmentView$layoutSubviews', symObjAddr: 0x3E190, symBinAddr: 0x42AF8, symSize: 0x0 }
+  - { offset: 0x5CD2, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEFeedTemplateAnchorView$layoutSubviews', symObjAddr: 0x3E198, symBinAddr: 0x42B00, symSize: 0x0 }
+  - { offset: 0x5D13, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEPlayInteractionSearchAnchorView$layoutSubviews', symObjAddr: 0x3E1A0, symBinAddr: 0x42B08, symSize: 0x0 }
+  - { offset: 0x5D54, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWEAwemeMusicInfoView$layoutSubviews', symObjAddr: 0x3E1A8, symBinAddr: 0x42B10, symSize: 0x0 }
+  - { offset: 0x5D95, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$AWETemplateHotspotView$layoutSubviews', symObjAddr: 0x3E1B0, symBinAddr: 0x42B18, symSize: 0x0 }
+  - { offset: 0x5DC9, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIViewController$viewDidAppear$', symObjAddr: 0x3CF8, symBinAddr: 0xBCF8, symSize: 0x160 }
+  - { offset: 0x5DEC, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIViewController$viewDidAppear$.isAlertShown', symObjAddr: 0x3E1B8, symBinAddr: 0x42B20, symSize: 0x0 }
+  - { offset: 0x5E6E, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEFeedContainerContentView$setAlpha$', symObjAddr: 0x5BC8, symBinAddr: 0xDBC8, symSize: 0x304 }
+  - { offset: 0x5E91, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEFeedContainerContentView$setAlpha$.timer', symObjAddr: 0x3E1C0, symBinAddr: 0x42B28, symSize: 0x0 }
+  - { offset: 0x5EA7, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEFeedContainerContentView$setAlpha$.attempts', symObjAddr: 0x3E1C8, symBinAddr: 0x42B30, symSize: 0x0 }
+  - { offset: 0x6312, size: 0x8, addend: 0x0, symName: '-[BottomSheetViewController initWithTitle:message:image:actions:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x198 }
+  - { offset: 0x6380, size: 0x8, addend: 0x0, symName: '-[BottomSheetViewController animationControllerForPresentedController:presentingController:sourceController:]', symObjAddr: 0x198, symBinAddr: 0x8198, symSize: 0xC0 }
+  - { offset: 0x63E0, size: 0x8, addend: 0x0, symName: '-[BottomSheetViewController animationControllerForDismissedController:]', symObjAddr: 0x258, symBinAddr: 0x8258, symSize: 0x78 }
+  - { offset: 0x6424, size: 0x8, addend: 0x0, symName: '-[BottomSheetViewController viewDidLoad]', symObjAddr: 0x2D0, symBinAddr: 0x82D0, symSize: 0xE4C }
+  - { offset: 0x64B2, size: 0x8, addend: 0x0, symName: _CGSizeMake, symObjAddr: 0x111C, symBinAddr: 0x911C, symSize: 0x2C }
+  - { offset: 0x64FA, size: 0x8, addend: 0x0, symName: '-[BottomSheetViewController .cxx_destruct]', symObjAddr: 0x1148, symBinAddr: 0x9148, symSize: 0x8C }
+  - { offset: 0x652C, size: 0x8, addend: 0x0, symName: '-[BottomSheetPresentationAnimation transitionDuration:]', symObjAddr: 0x11D4, symBinAddr: 0x91D4, symSize: 0x58 }
+  - { offset: 0x6570, size: 0x8, addend: 0x0, symName: '-[BottomSheetPresentationAnimation animateTransition:]', symObjAddr: 0x122C, symBinAddr: 0x922C, symSize: 0x320 }
+  - { offset: 0x65DB, size: 0x8, addend: 0x0, symName: _CGRectMake, symObjAddr: 0x154C, symBinAddr: 0x954C, symSize: 0x4C }
+  - { offset: 0x6641, size: 0x8, addend: 0x0, symName: '___54-[BottomSheetPresentationAnimation animateTransition:]_block_invoke', symObjAddr: 0x1598, symBinAddr: 0x9598, symSize: 0x11C }
+  - { offset: 0x667A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x16B4, symBinAddr: 0x96B4, symSize: 0x3C }
+  - { offset: 0x669E, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x16F0, symBinAddr: 0x96F0, symSize: 0x30 }
+  - { offset: 0x66BA, size: 0x8, addend: 0x0, symName: '___54-[BottomSheetPresentationAnimation animateTransition:]_block_invoke.29', symObjAddr: 0x1720, symBinAddr: 0x9720, symSize: 0x4C }
+  - { offset: 0x6701, size: 0x8, addend: 0x0, symName: '-[BottomSheetDismissalAnimation transitionDuration:]', symObjAddr: 0x176C, symBinAddr: 0x976C, symSize: 0x58 }
+  - { offset: 0x6745, size: 0x8, addend: 0x0, symName: '-[BottomSheetDismissalAnimation animateTransition:]', symObjAddr: 0x17C4, symBinAddr: 0x97C4, symSize: 0x1EC }
+  - { offset: 0x67A1, size: 0x8, addend: 0x0, symName: '___51-[BottomSheetDismissalAnimation animateTransition:]_block_invoke', symObjAddr: 0x19B0, symBinAddr: 0x99B0, symSize: 0x114 }
+  - { offset: 0x67DA, size: 0x8, addend: 0x0, symName: '___51-[BottomSheetDismissalAnimation animateTransition:]_block_invoke_2', symObjAddr: 0x1AC4, symBinAddr: 0x9AC4, symSize: 0x4C }
+  - { offset: 0x6821, size: 0x8, addend: 0x0, symName: _pxxImage, symObjAddr: 0x1B10, symBinAddr: 0x9B10, symSize: 0x8C }
+  - { offset: 0x6849, size: 0x8, addend: 0x0, symName: __logosLocalInit, symObjAddr: 0x1B9C, symBinAddr: 0x9B9C, symSize: 0x215C }
+  - { offset: 0x6F8A, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIViewController$showDisclaimerAlert', symObjAddr: 0x3E58, symBinAddr: 0xBE58, symSize: 0x30 }
+  - { offset: 0x6FBF, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIViewController$showThirdAlert', symObjAddr: 0x3E88, symBinAddr: 0xBE88, symSize: 0x268 }
+  - { offset: 0x7021, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIViewController$thumbUpAction', symObjAddr: 0x40F0, symBinAddr: 0xC0F0, symSize: 0x74 }
+  - { offset: 0x7065, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIViewController$thumbDownAction', symObjAddr: 0x4164, symBinAddr: 0xC164, symSize: 0xE4 }
+  - { offset: 0x70C1, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIViewController$dismissPresentedAlert', symObjAddr: 0x4248, symBinAddr: 0xC248, symSize: 0x50 }
+  - { offset: 0x710B, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIViewController$scaleDown$', symObjAddr: 0x4298, symBinAddr: 0xC298, symSize: 0xE8 }
+  - { offset: 0x714F, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIViewController$scaleUp$', symObjAddr: 0x4380, symBinAddr: 0xC380, symSize: 0xE8 }
+  - { offset: 0x7193, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEAwemePlayVideoViewController$viewDidLoad', symObjAddr: 0x4468, symBinAddr: 0xC468, symSize: 0x94 }
+  - { offset: 0x71C8, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEAwemePlayVideoViewController$updateFeatureState$', symObjAddr: 0x44FC, symBinAddr: 0xC4FC, symSize: 0x3F0 }
+  - { offset: 0x721B, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEAwemePlayVideoViewController$dealloc', symObjAddr: 0x48EC, symBinAddr: 0xC8EC, symSize: 0x68 }
+  - { offset: 0x7250, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEAwemePlayVideoViewController$handleDoubleTap$', symObjAddr: 0x4954, symBinAddr: 0xC954, symSize: 0x434 }
+  - { offset: 0x7307, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEAwemePlayVideoViewController$startPiPMode', symObjAddr: 0x4D88, symBinAddr: 0xCD88, symSize: 0x300 }
+  - { offset: 0x73B3, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEAwemePlayVideoViewController$startAppPiPMode', symObjAddr: 0x5088, symBinAddr: 0xD088, symSize: 0x59C }
+  - { offset: 0x748C, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEAwemePlayVideoViewController$handlePan$', symObjAddr: 0x5624, symBinAddr: 0xD624, symSize: 0x178 }
+  - { offset: 0x74EE, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEAwemePlayVideoViewController$closePiPView$', symObjAddr: 0x579C, symBinAddr: 0xD79C, symSize: 0xD0 }
+  - { offset: 0x7550, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEAwemePlayVideoViewController$getVideoURL', symObjAddr: 0x586C, symBinAddr: 0xD86C, symSize: 0x200 }
+  - { offset: 0x75C5, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEAwemePlayVideoViewController$pictureInPictureControllerDidStopPictureInPicture$', symObjAddr: 0x5A6C, symBinAddr: 0xDA6C, symSize: 0xA0 }
+  - { offset: 0x7618, size: 0x8, addend: 0x0, symName: '__logos_meta_method$_ungrouped$AWENormalModeTabBarGeneralPlusButton$button', symObjAddr: 0x5B0C, symBinAddr: 0xDB0C, symSize: 0xBC }
+  - { offset: 0x7660, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEFeedContainerContentView$findViewController$ofClass$', symObjAddr: 0x5ECC, symBinAddr: 0xDECC, symSize: 0x30C }
+  - { offset: 0x76E7, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEDanmakuContentLabel$setTextColor$', symObjAddr: 0x61D8, symBinAddr: 0xE1D8, symSize: 0x3E8 }
+  - { offset: 0x776E, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEDanmakuContentLabel$colorFromHexString$baseColor$', symObjAddr: 0x65C0, symBinAddr: 0xE5C0, symSize: 0x364 }
+  - { offset: 0x7888, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEDanmakuItemTextInfo$setDanmakuTextColor$', symObjAddr: 0x6924, symBinAddr: 0xE924, symSize: 0x2D8 }
+  - { offset: 0x78E1, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEDanmakuItemTextInfo$colorFromHexStringForTextInfo$', symObjAddr: 0x6BFC, symBinAddr: 0xEBFC, symSize: 0x30C }
+  - { offset: 0x79EB, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIWindow$initWithFrame$', symObjAddr: 0x6F08, symBinAddr: 0xEF08, symSize: 0x110 }
+  - { offset: 0x7A57, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIWindow$handleDoubleFingerLongPressGesture$', symObjAddr: 0x7018, symBinAddr: 0xF018, symSize: 0x9BC }
+  - { offset: 0x7B1C, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIWindow$closeSettings$', symObjAddr: 0x79D4, symBinAddr: 0xF9D4, symSize: 0xBC }
+  - { offset: 0x7B60, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEFeedLiveMarkView$setHidden$', symObjAddr: 0x7A90, symBinAddr: 0xFA90, symSize: 0xA0 }
+  - { offset: 0x7BA4, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWELongVideoControlModel$allowDownload', symObjAddr: 0x7B30, symBinAddr: 0xFB30, symSize: 0x1C }
+  - { offset: 0x7BDD, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWELongVideoControlModel$preventDownloadType', symObjAddr: 0x7B4C, symBinAddr: 0xFB4C, symSize: 0x18 }
+  - { offset: 0x7C16, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWELandscapeFeedEntryView$setHidden$', symObjAddr: 0x7B64, symBinAddr: 0xFB64, symSize: 0xA0 }
+  - { offset: 0x7C5A, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEAwemeModel$live_callInitWithDictyCategoryMethod$', symObjAddr: 0x7C04, symBinAddr: 0xFC04, symSize: 0x198 }
+  - { offset: 0x7C9E, size: 0x8, addend: 0x0, symName: '__logos_meta_method$_ungrouped$AWEAwemeModel$liveStreamURLJSONTransformer', symObjAddr: 0x7D9C, symBinAddr: 0xFD9C, symSize: 0xF0 }
+  - { offset: 0x7CD7, size: 0x8, addend: 0x0, symName: '__logos_meta_method$_ungrouped$AWEAwemeModel$relatedLiveJSONTransformer', symObjAddr: 0x7E8C, symBinAddr: 0xFE8C, symSize: 0xF0 }
+  - { offset: 0x7D10, size: 0x8, addend: 0x0, symName: '__logos_meta_method$_ungrouped$AWEAwemeModel$rawModelFromLiveRoomModel$', symObjAddr: 0x7F7C, symBinAddr: 0xFF7C, symSize: 0x114 }
+  - { offset: 0x7D58, size: 0x8, addend: 0x0, symName: '__logos_meta_method$_ungrouped$AWEAwemeModel$aweLiveRoom_subModelPropertyKey', symObjAddr: 0x8090, symBinAddr: 0x10090, symSize: 0xF0 }
+  - { offset: 0x7D91, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEAwemeModel$setIsAds$', symObjAddr: 0x8180, symBinAddr: 0x10180, symSize: 0x4C }
+  - { offset: 0x7DE2, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEPlayInteractionViewController$viewDidLayoutSubviews', symObjAddr: 0x81CC, symBinAddr: 0x101CC, symSize: 0x554 }
+  - { offset: 0x7E62, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEStoryContainerCollectionView$layoutSubviews', symObjAddr: 0x8720, symBinAddr: 0x10720, symSize: 0x2BC }
+  - { offset: 0x7ECD, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEFeedTableView$layoutSubviews', symObjAddr: 0x89DC, symBinAddr: 0x109DC, symSize: 0x11C }
+  - { offset: 0x7F1F, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEPlayInteractionProgressContainerView$layoutSubviews', symObjAddr: 0x8AF8, symBinAddr: 0x10AF8, symSize: 0x25C }
+  - { offset: 0x7F79, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIView$setFrame$', symObjAddr: 0x8D54, symBinAddr: 0x10D54, symSize: 0x184 }
+  - { offset: 0x7FEE, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIView$setAlpha$', symObjAddr: 0x8ED8, symBinAddr: 0x10ED8, symSize: 0x1CC }
+  - { offset: 0x8088, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIView$layoutSubviews', symObjAddr: 0x90A4, symBinAddr: 0x110A4, symSize: 0x470 }
+  - { offset: 0x80EB, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIView$firstAvailableUIViewController', symObjAddr: 0x9514, symBinAddr: 0x11514, symSize: 0xEC }
+  - { offset: 0x8133, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEBaseListViewController$viewDidLayoutSubviews', symObjAddr: 0x9600, symBinAddr: 0x11600, symSize: 0x44 }
+  - { offset: 0x8168, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEBaseListViewController$viewDidAppear$', symObjAddr: 0x9644, symBinAddr: 0x11644, symSize: 0x58 }
+  - { offset: 0x81AC, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEBaseListViewController$viewWillAppear$', symObjAddr: 0x969C, symBinAddr: 0x1169C, symSize: 0x58 }
+  - { offset: 0x81F0, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEBaseListViewController$applyBlurEffectIfNeeded', symObjAddr: 0x96F4, symBinAddr: 0x116F4, symSize: 0x7D8 }
+  - { offset: 0x82BF, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AFDFastSpeedView$layoutSubviews', symObjAddr: 0x9ECC, symBinAddr: 0x11ECC, symSize: 0x25C }
+  - { offset: 0x830C, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWENormalModeTabBarBadgeContainerView$layoutSubviews', symObjAddr: 0xA128, symBinAddr: 0x12128, symSize: 0x22C }
+  - { offset: 0x8359, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWELeftSideBarEntranceView$layoutSubviews', symObjAddr: 0xA354, symBinAddr: 0x12354, symSize: 0x22C }
+  - { offset: 0x83A6, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEFeedVideoButton$layoutSubviews', symObjAddr: 0xA580, symBinAddr: 0x12580, symSize: 0x348 }
+  - { offset: 0x83EA, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEFeedVideoButton$touchUpInsideBlock', symObjAddr: 0xA8C8, symBinAddr: 0x128C8, symSize: 0x1F0 }
+  - { offset: 0x8447, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEMusicCoverButton$layoutSubviews', symObjAddr: 0xAAB8, symBinAddr: 0x12AB8, symSize: 0x10C }
+  - { offset: 0x847C, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEPlayInteractionListenFeedView$layoutSubviews', symObjAddr: 0xABC4, symBinAddr: 0x12BC4, symSize: 0x90 }
+  - { offset: 0x84B1, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEPlayInteractionFollowPromptView$layoutSubviews', symObjAddr: 0xAC54, symBinAddr: 0x12C54, symSize: 0x10C }
+  - { offset: 0x84E6, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEAdAvatarView$layoutSubviews', symObjAddr: 0xAD60, symBinAddr: 0x12D60, symSize: 0x90 }
+  - { offset: 0x8535, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWENormalModeTabBar$layoutSubviews', symObjAddr: 0xADF0, symBinAddr: 0x12DF0, symSize: 0xA44 }
+  - { offset: 0x86D0, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UITextInputTraits$setKeyboardAppearance$', symObjAddr: 0xB834, symBinAddr: 0x13834, symSize: 0xA8 }
+  - { offset: 0x8714, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWECommentMiniEmoticonPanelView$layoutSubviews', symObjAddr: 0xB8DC, symBinAddr: 0x138DC, symSize: 0x260 }
+  - { offset: 0x8761, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWECommentPublishGuidanceView$layoutSubviews', symObjAddr: 0xBB3C, symBinAddr: 0x13B3C, symSize: 0x260 }
+  - { offset: 0x87AE, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UILabel$setText$', symObjAddr: 0xBD9C, symBinAddr: 0x13D9C, symSize: 0x154 }
+  - { offset: 0x87F2, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIButton$setImage$forState$', symObjAddr: 0xBEF0, symBinAddr: 0x13EF0, symSize: 0x1F8 }
+  - { offset: 0x8869, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWETextViewInternal$drawRect$', symObjAddr: 0xC0E8, symBinAddr: 0x140E8, symSize: 0xD8 }
+  - { offset: 0x88AD, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWETextViewInternal$lineSpacing', symObjAddr: 0xC1C0, symBinAddr: 0x141C0, symSize: 0xC0 }
+  - { offset: 0x88F5, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEPlayInteractionUserAvatarElement$onFollowViewClicked$', symObjAddr: 0xC280, symBinAddr: 0x14280, symSize: 0x15C }
+  - { offset: 0x894E, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEFeedProgressSlider$setAlpha$', symObjAddr: 0xC3DC, symBinAddr: 0x143DC, symSize: 0xB0 }
+  - { offset: 0x8992, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWENormalModeTabBarTextView$layoutSubviews', symObjAddr: 0xC48C, symBinAddr: 0x1448C, symSize: 0x56C }
+  - { offset: 0x8A35, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEFeedIPhoneAutoPlayManager$isAutoPlayOpen', symObjAddr: 0xC9F8, symBinAddr: 0x149F8, symSize: 0xBC }
+  - { offset: 0x8A7D, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEHPTopTabItemModel$setChannelID$', symObjAddr: 0xCAB4, symBinAddr: 0x14AB4, symSize: 0x294 }
+  - { offset: 0x8AD0, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEPlayInteractionTimestampElement$timestampLabel', symObjAddr: 0xCD48, symBinAddr: 0x14D48, symSize: 0x41C }
+  - { offset: 0x8B61, size: 0x8, addend: 0x0, symName: '__logos_meta_method$_ungrouped$AWEPlayInteractionTimestampElement$shouldActiveWithData$context$', symObjAddr: 0xD164, symBinAddr: 0x15164, symSize: 0xB8 }
+  - { offset: 0x8BB8, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEFeedRootViewController$prefersStatusBarHidden', symObjAddr: 0xD21C, symBinAddr: 0x1521C, symSize: 0xAC }
+  - { offset: 0x8BF1, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEHPDiscoverFeedEntranceView$setAlpha$', symObjAddr: 0xD2C8, symBinAddr: 0x152C8, symSize: 0xB0 }
+  - { offset: 0x8C35, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEUserWorkCollectionViewComponentCell$layoutSubviews', symObjAddr: 0xD378, symBinAddr: 0x15378, symSize: 0x90 }
+  - { offset: 0x8C6A, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEFeedRefreshFooter$layoutSubviews', symObjAddr: 0xD408, symBinAddr: 0x15408, symSize: 0x90 }
+  - { offset: 0x8C9F, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWERLSegmentView$layoutSubviews', symObjAddr: 0xD498, symBinAddr: 0x15498, symSize: 0x90 }
+  - { offset: 0x8CD4, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEFeedTemplateAnchorView$layoutSubviews', symObjAddr: 0xD528, symBinAddr: 0x15528, symSize: 0x90 }
+  - { offset: 0x8D09, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEPlayInteractionSearchAnchorView$layoutSubviews', symObjAddr: 0xD5B8, symBinAddr: 0x155B8, symSize: 0x90 }
+  - { offset: 0x8D3E, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWEAwemeMusicInfoView$layoutSubviews', symObjAddr: 0xD648, symBinAddr: 0x15648, symSize: 0x98 }
+  - { offset: 0x8D73, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$AWETemplateHotspotView$layoutSubviews', symObjAddr: 0xD6E0, symBinAddr: 0x156E0, symSize: 0x90 }
+  - { offset: 0x8DA8, size: 0x8, addend: 0x0, symName: _createModernButton, symObjAddr: 0xD770, symBinAddr: 0x15770, symSize: 0x6B0 }
+  - { offset: 0x8E6A, size: 0x8, addend: 0x0, symName: _safePresentViewController, symObjAddr: 0xDE20, symBinAddr: 0x15E20, symSize: 0x170 }
+  - { offset: 0x8EB0, size: 0x8, addend: 0x0, symName: _CGPointMake, symObjAddr: 0xDF90, symBinAddr: 0x15F90, symSize: 0x2C }
+  - { offset: 0x8EF8, size: 0x8, addend: 0x0, symName: ___safePresentViewController_block_invoke, symObjAddr: 0xDFBC, symBinAddr: 0x15FBC, symSize: 0x48 }
+  - { offset: 0x8F42, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0xE004, symBinAddr: 0x16004, symSize: 0x5C }
+  - { offset: 0x8F66, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0xE060, symBinAddr: 0x16060, symSize: 0x48 }
+  - { offset: 0x8F82, size: 0x8, addend: 0x0, symName: _getActiveTopViewController, symObjAddr: 0xE0A8, symBinAddr: 0x160A8, symSize: 0x4F8 }
+  - { offset: 0x8FE4, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$UIViewController$thumbUpAction_block_invoke', symObjAddr: 0xE5A0, symBinAddr: 0x165A0, symSize: 0xCC }
+  - { offset: 0x903A, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$UIViewController$dismissPresentedAlert_block_invoke', symObjAddr: 0xE66C, symBinAddr: 0x1666C, symSize: 0x74 }
+  - { offset: 0x9081, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$UIViewController$scaleDown$_block_invoke', symObjAddr: 0xE6E0, symBinAddr: 0x166E0, symSize: 0xAC }
+  - { offset: 0x90BD, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$UIViewController$scaleUp$_block_invoke', symObjAddr: 0xE78C, symBinAddr: 0x1678C, symSize: 0xB0 }
+  - { offset: 0x90F9, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEAwemePlayVideoViewController$handleDoubleTap$_block_invoke', symObjAddr: 0xE83C, symBinAddr: 0x1683C, symSize: 0x40 }
+  - { offset: 0x9135, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEAwemePlayVideoViewController$handleDoubleTap$_block_invoke_2', symObjAddr: 0xE87C, symBinAddr: 0x1687C, symSize: 0x3E8 }
+  - { offset: 0x91F8, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEAwemePlayVideoViewController$handleDoubleTap$_block_invoke_3', symObjAddr: 0xEC64, symBinAddr: 0x16C64, symSize: 0x100 }
+  - { offset: 0x9249, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEAwemePlayVideoViewController$handleDoubleTap$_block_invoke_4', symObjAddr: 0xED64, symBinAddr: 0x16D64, symSize: 0x40 }
+  - { offset: 0x9285, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEAwemePlayVideoViewController$handleDoubleTap$_block_invoke_5', symObjAddr: 0xEDA4, symBinAddr: 0x16DA4, symSize: 0x100 }
+  - { offset: 0x92D6, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEAwemePlayVideoViewController$handleDoubleTap$_block_invoke_6', symObjAddr: 0xEEA4, symBinAddr: 0x16EA4, symSize: 0x40 }
+  - { offset: 0x9312, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEAwemePlayVideoViewController$handleDoubleTap$_block_invoke_7', symObjAddr: 0xEEE4, symBinAddr: 0x16EE4, symSize: 0x234 }
+  - { offset: 0x9384, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEAwemePlayVideoViewController$handleDoubleTap$_block_invoke_8', symObjAddr: 0xF118, symBinAddr: 0x17118, symSize: 0x54 }
+  - { offset: 0x93C0, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEAwemePlayVideoViewController$handleDoubleTap$_block_invoke_9', symObjAddr: 0xF16C, symBinAddr: 0x1716C, symSize: 0x13C }
+  - { offset: 0x942F, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEAwemePlayVideoViewController$handleDoubleTap$_block_invoke_10', symObjAddr: 0xF2A8, symBinAddr: 0x172A8, symSize: 0x174 }
+  - { offset: 0x94A4, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEAwemePlayVideoViewController$handleDoubleTap$_block_invoke_11', symObjAddr: 0xF41C, symBinAddr: 0x1741C, symSize: 0x40 }
+  - { offset: 0x94E0, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEAwemePlayVideoViewController$handleDoubleTap$_block_invoke.348', symObjAddr: 0xF45C, symBinAddr: 0x1745C, symSize: 0x100 }
+  - { offset: 0x9531, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEAwemePlayVideoViewController$handleDoubleTap$_block_invoke_2.352', symObjAddr: 0xF55C, symBinAddr: 0x1755C, symSize: 0x40 }
+  - { offset: 0x956D, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEFeedContainerContentView$setAlpha$_block_invoke', symObjAddr: 0xF59C, symBinAddr: 0x1759C, symSize: 0x1B0 }
+  - { offset: 0x95E4, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEFeedVideoButton$touchUpInsideBlock_block_invoke', symObjAddr: 0xF74C, symBinAddr: 0x1774C, symSize: 0x224 }
+  - { offset: 0x9663, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEFeedVideoButton$touchUpInsideBlock_block_invoke_2', symObjAddr: 0xF970, symBinAddr: 0x17970, symSize: 0xA0 }
+  - { offset: 0x96AE, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWENormalModeTabBar$layoutSubviews_block_invoke', symObjAddr: 0xFA10, symBinAddr: 0x17A10, symSize: 0x12C }
+  - { offset: 0x96FA, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEPlayInteractionUserAvatarElement$onFollowViewClicked$_block_invoke', symObjAddr: 0xFB3C, symBinAddr: 0x17B3C, symSize: 0x234 }
+  - { offset: 0x979D, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$AWEPlayInteractionUserAvatarElement$onFollowViewClicked$_block_invoke_2', symObjAddr: 0xFD70, symBinAddr: 0x17D70, symSize: 0x6C }
+  - { offset: 0xAFE8, size: 0x8, addend: 0x0, symName: '+[DYYYSettingItem itemWithTitle:key:type:]', symObjAddr: 0x0, symBinAddr: 0x17DDC, symSize: 0xC0 }
+  - { offset: 0xDFD1, size: 0x8, addend: 0x0, symName: '+[DYYYSettingItem itemWithTitle:key:type:]', symObjAddr: 0x0, symBinAddr: 0x17DDC, symSize: 0xC0 }
+  - { offset: 0xE031, size: 0x8, addend: 0x0, symName: '+[DYYYSettingItem itemWithTitle:key:type:placeholder:]', symObjAddr: 0xC0, symBinAddr: 0x17E9C, symSize: 0x12C }
+  - { offset: 0xE0AD, size: 0x8, addend: 0x0, symName: '-[DYYYSettingItem title]', symObjAddr: 0x1EC, symBinAddr: 0x17FC8, symSize: 0x1C }
+  - { offset: 0xE0E3, size: 0x8, addend: 0x0, symName: '-[DYYYSettingItem setTitle:]', symObjAddr: 0x208, symBinAddr: 0x17FE4, symSize: 0x3C }
+  - { offset: 0xE121, size: 0x8, addend: 0x0, symName: '-[DYYYSettingItem key]', symObjAddr: 0x244, symBinAddr: 0x18020, symSize: 0x1C }
+  - { offset: 0xE157, size: 0x8, addend: 0x0, symName: '-[DYYYSettingItem setKey:]', symObjAddr: 0x260, symBinAddr: 0x1803C, symSize: 0x3C }
+  - { offset: 0xE195, size: 0x8, addend: 0x0, symName: '-[DYYYSettingItem type]', symObjAddr: 0x29C, symBinAddr: 0x18078, symSize: 0x1C }
+  - { offset: 0xE1CB, size: 0x8, addend: 0x0, symName: '-[DYYYSettingItem setType:]', symObjAddr: 0x2B8, symBinAddr: 0x18094, symSize: 0x24 }
+  - { offset: 0xE209, size: 0x8, addend: 0x0, symName: '-[DYYYSettingItem placeholder]', symObjAddr: 0x2DC, symBinAddr: 0x180B8, symSize: 0x1C }
+  - { offset: 0xE23F, size: 0x8, addend: 0x0, symName: '-[DYYYSettingItem setPlaceholder:]', symObjAddr: 0x2F8, symBinAddr: 0x180D4, symSize: 0x3C }
+  - { offset: 0xE27D, size: 0x8, addend: 0x0, symName: '-[DYYYSettingItem .cxx_destruct]', symObjAddr: 0x334, symBinAddr: 0x18110, symSize: 0x5C }
+  - { offset: 0xE2AF, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController viewDidLoad]', symObjAddr: 0x390, symBinAddr: 0x1816C, symSize: 0xE4 }
+  - { offset: 0xE2E1, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController setupAppearance]', symObjAddr: 0x474, symBinAddr: 0x18250, symSize: 0x268 }
+  - { offset: 0xE313, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController setupBlurEffect]', symObjAddr: 0x6DC, symBinAddr: 0x184B8, symSize: 0x418 }
+  - { offset: 0xE371, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController setupTableView]', symObjAddr: 0xAF4, symBinAddr: 0x188D0, symSize: 0x280 }
+  - { offset: 0xE3A3, size: 0x8, addend: 0x0, symName: _UIEdgeInsetsMake, symObjAddr: 0xD74, symBinAddr: 0x18B50, symSize: 0x4C }
+  - { offset: 0xE403, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController setupSettingItems]', symObjAddr: 0xDC0, symBinAddr: 0x18B9C, symSize: 0xDF4 }
+  - { offset: 0xE437, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController setupSectionTitles]', symObjAddr: 0x1BB4, symBinAddr: 0x19990, symSize: 0x50 }
+  - { offset: 0xE469, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController setupFooterLabel]', symObjAddr: 0x1C04, symBinAddr: 0x199E0, symSize: 0x2DC }
+  - { offset: 0xE49B, size: 0x8, addend: 0x0, symName: _CGRectMake, symObjAddr: 0x1EE0, symBinAddr: 0x19CBC, symSize: 0x4C }
+  - { offset: 0xE501, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController addTitleGradientAnimation]', symObjAddr: 0x1F2C, symBinAddr: 0x19D08, symSize: 0x548 }
+  - { offset: 0xE570, size: 0x8, addend: 0x0, symName: _CGPointMake, symObjAddr: 0x2474, symBinAddr: 0x1A250, symSize: 0x2C }
+  - { offset: 0xE5B8, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController numberOfSectionsInTableView:]', symObjAddr: 0x24A0, symBinAddr: 0x1A27C, symSize: 0x84 }
+  - { offset: 0xE5FC, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController tableView:titleForHeaderInSection:]', symObjAddr: 0x2524, symBinAddr: 0x1A300, symSize: 0xAC }
+  - { offset: 0xE64E, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController tableView:viewForHeaderInSection:]', symObjAddr: 0x25D0, symBinAddr: 0x1A3AC, symSize: 0x50C }
+  - { offset: 0xE6DB, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController tableView:heightForHeaderInSection:]', symObjAddr: 0x2ADC, symBinAddr: 0x1A8B8, symSize: 0x64 }
+  - { offset: 0xE730, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController tableView:numberOfRowsInSection:]', symObjAddr: 0x2B40, symBinAddr: 0x1A91C, symSize: 0x184 }
+  - { offset: 0xE785, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController tableView:cellForRowAtIndexPath:]', symObjAddr: 0x2CC4, symBinAddr: 0x1AAA0, symSize: 0xBC4 }
+  - { offset: 0xE83D, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController tableView:willDisplayCell:forRowAtIndexPath:]', symObjAddr: 0x3888, symBinAddr: 0x1B664, symSize: 0x180 }
+  - { offset: 0xE8AC, size: 0x8, addend: 0x0, symName: _UIEdgeInsetsInsetRect, symObjAddr: 0x3A08, symBinAddr: 0x1B7E4, symSize: 0x9C }
+  - { offset: 0xE8E2, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController tableView:didSelectRowAtIndexPath:]', symObjAddr: 0x3AA4, symBinAddr: 0x1B880, symSize: 0x144 }
+  - { offset: 0xE942, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController showSpeedPicker]', symObjAddr: 0x3BE8, symBinAddr: 0x1B9C4, symSize: 0x4FC }
+  - { offset: 0xE9F1, size: 0x8, addend: 0x0, symName: '___44-[DYYYSettingViewController showSpeedPicker]_block_invoke', symObjAddr: 0x40E4, symBinAddr: 0x1BEC0, symSize: 0x370 }
+  - { offset: 0xEAF3, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController switchToggled:]', symObjAddr: 0x44F8, symBinAddr: 0x1C230, symSize: 0x1F4 }
+  - { offset: 0xEB53, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController textFieldDidChange:]', symObjAddr: 0x46EC, symBinAddr: 0x1C424, symSize: 0x200 }
+  - { offset: 0xEBB3, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController headerTapped:]', symObjAddr: 0x48EC, symBinAddr: 0x1C624, symSize: 0x320 }
+  - { offset: 0xEC22, size: 0x8, addend: 0x0, symName: '___42-[DYYYSettingViewController headerTapped:]_block_invoke', symObjAddr: 0x4C0C, symBinAddr: 0x1C944, symSize: 0xBC }
+  - { offset: 0xEC86, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x4CC8, symBinAddr: 0x1CA00, symSize: 0x74 }
+  - { offset: 0xECAA, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x4D3C, symBinAddr: 0x1CA74, symSize: 0x58 }
+  - { offset: 0xECC6, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController tableView]', symObjAddr: 0x4D94, symBinAddr: 0x1CACC, symSize: 0x24 }
+  - { offset: 0xECFC, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController setTableView:]', symObjAddr: 0x4DB8, symBinAddr: 0x1CAF0, symSize: 0x40 }
+  - { offset: 0xED3A, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController settingSections]', symObjAddr: 0x4DF8, symBinAddr: 0x1CB30, symSize: 0x24 }
+  - { offset: 0xED70, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController setSettingSections:]', symObjAddr: 0x4E1C, symBinAddr: 0x1CB54, symSize: 0x40 }
+  - { offset: 0xEDAE, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController footerLabel]', symObjAddr: 0x4E5C, symBinAddr: 0x1CB94, symSize: 0x24 }
+  - { offset: 0xEDE4, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController setFooterLabel:]', symObjAddr: 0x4E80, symBinAddr: 0x1CBB8, symSize: 0x40 }
+  - { offset: 0xEE22, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController sectionTitles]', symObjAddr: 0x4EC0, symBinAddr: 0x1CBF8, symSize: 0x24 }
+  - { offset: 0xEE58, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController setSectionTitles:]', symObjAddr: 0x4EE4, symBinAddr: 0x1CC1C, symSize: 0x40 }
+  - { offset: 0xEE96, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController expandedSections]', symObjAddr: 0x4F24, symBinAddr: 0x1CC5C, symSize: 0x24 }
+  - { offset: 0xEECC, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController setExpandedSections:]', symObjAddr: 0x4F48, symBinAddr: 0x1CC80, symSize: 0x40 }
+  - { offset: 0xEF0A, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController blurEffectView]', symObjAddr: 0x4F88, symBinAddr: 0x1CCC0, symSize: 0x24 }
+  - { offset: 0xEF40, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController setBlurEffectView:]', symObjAddr: 0x4FAC, symBinAddr: 0x1CCE4, symSize: 0x40 }
+  - { offset: 0xEF7E, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController vibrancyEffectView]', symObjAddr: 0x4FEC, symBinAddr: 0x1CD24, symSize: 0x24 }
+  - { offset: 0xEFB4, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController setVibrancyEffectView:]', symObjAddr: 0x5010, symBinAddr: 0x1CD48, symSize: 0x40 }
+  - { offset: 0xEFF2, size: 0x8, addend: 0x0, symName: '-[DYYYSettingViewController .cxx_destruct]', symObjAddr: 0x5050, symBinAddr: 0x1CD88, symSize: 0xD4 }
+  - { offset: 0x108BD, size: 0x8, addend: 0x0, symName: '+[CityManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x1CE5C, symSize: 0x94 }
+  - { offset: 0x108CA, size: 0x8, addend: 0x0, symName: '+[CityManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x1CE5C, symSize: 0x94 }
+  - { offset: 0x108F3, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0xECF8, symBinAddr: 0x42B60, symSize: 0x0 }
+  - { offset: 0x10908, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xED00, symBinAddr: 0x42B68, symSize: 0x0 }
+  - { offset: 0x10A9C, size: 0x8, addend: 0x0, symName: '___29+[CityManager sharedInstance]_block_invoke', symObjAddr: 0x94, symBinAddr: 0x1CEF0, symSize: 0x5C }
+  - { offset: 0x10AC4, size: 0x8, addend: 0x0, symName: '-[CityManager loadCityData]', symObjAddr: 0xF0, symBinAddr: 0x1CF4C, symSize: 0x38 }
+  - { offset: 0x10AF6, size: 0x8, addend: 0x0, symName: '-[CityManager getCityNameWithCode:]', symObjAddr: 0x128, symBinAddr: 0x1CF84, symSize: 0x120 }
+  - { offset: 0x10B4B, size: 0x8, addend: 0x0, symName: '-[CityManager getProvinceNameWithCode:]', symObjAddr: 0x248, symBinAddr: 0x1D0A4, symSize: 0x178 }
+  - { offset: 0x10BAF, size: 0x8, addend: 0x0, symName: '-[CityManager cityCodeMap]', symObjAddr: 0x3C0, symBinAddr: 0x1D21C, symSize: 0x1C }
+  - { offset: 0x10BE5, size: 0x8, addend: 0x0, symName: '-[CityManager setCityCodeMap:]', symObjAddr: 0x3DC, symBinAddr: 0x1D238, symSize: 0x38 }
+  - { offset: 0x10C23, size: 0x8, addend: 0x0, symName: '-[CityManager .cxx_destruct]', symObjAddr: 0x414, symBinAddr: 0x1D270, symSize: 0x34 }
+...
