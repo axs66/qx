@@ -1,1 +1,40 @@
+name: Delete v1.8-9+ Releases
 
+on:
+  workflow_dispatch:  # 允许手动触发工作流
+
+jobs:
+  delete_v1_8_9_plus_releases:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: List releases (for debugging)
+        run: |
+          # 获取所有 releases 的标签并调试输出
+          releases=$(gh release list --json tagName -q '.[].tagName')
+          echo "Raw releases output: $releases"  # 打印所有获取到的标签
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}  # 使用 GitHub 令牌进行身份验证
+
+      - name: Delete v1.8-9+ releases
+        run: |
+          # 获取 releases 标签并筛选出 v1.8-9+ 开头的标签
+          releases=$(gh release list --json tagName -q '.[].tagName')
+          echo "Releases: $releases"  # 输出 releases 列表以便检查
+
+          # 使用 grep -E 和转义的 + 确保它按字符匹配
+          if echo "$releases" | grep -E "^v1\.8\-9\+"; then
+            echo "Deleting releases starting with v1.8-9+"
+            echo "$releases" | grep -E "^v1\.8\-9\+" | while read release; do
+              echo "Deleting release $release"
+              gh release delete "$release" --yes
+            done
+          else
+            echo "No releases found matching v1.8-9+"
+            exit 0
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}  # 使用 GitHub 令牌进行身份验证
