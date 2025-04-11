@@ -5,7 +5,7 @@
 [rewrite_local]
 ^https?:\/\/api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/axs66/qx/refs/heads/main/jd.js
 ^https?:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html url script-response-body https://raw.githubusercontent.com/axs66/qx/refs/heads/main/jd.js
-# ^https?:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html url script-response-body http://192.168.2.170:8080/jd_price.js
+# ^https?:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html url script-response-body https://raw.githubusercontent.com/axs66/qx/refs/heads/main/jd.js
 [mitm]
 hostname = api.m.jd.com, in.m.jd.com
 */
