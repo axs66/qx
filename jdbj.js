@@ -2,4 +2,4 @@
 ^https:\/\/item\.jd\.com\/\d+\.html$ script-response-body compare-price.js
 
 [mitm]
-hostname = item.jd.com
+hostname = item.jd.com,api.m.jd.com, in.m.jd.com
