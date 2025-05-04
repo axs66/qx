@@ -8,8 +8,8 @@
 
 [Script]
 
-JD_Price1 = type=http-response, pattern=^https?:\/\/api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig), script-path= https://raw.githubusercontent.com/axs66/qx/refs/heads/main/jd.js, requires-body=true, max-size=-1, timeout=60
-JD_Price2 = type=http-response, pattern=^https?:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html, script-path= https://raw.githubusercontent.com/axs66/qx/refs/heads/main/jd.js, requires-body=true, max-size=-1, timeout=60
+JD_Price1 = type=http-response, pattern=^https?:\/\/api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig), script-path= https://raw.githubusercontent.com/axs66/qx/refs/heads/main/jd1.js, requires-body=true, max-size=-1, timeout=60
+JD_Price2 = type=http-response, pattern=^https?:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html, script-path= https://raw.githubusercontent.com/axs66/qx/refs/heads/main/jd1.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% api.m.jd.com, in.m.jd.com
