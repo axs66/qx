@@ -1,0 +1,21 @@
+     <!doctype html><meta charset="utf-8"><title>Auth Code Generator</title>
+     <style>body{font:16px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto;max-width:680px;margin:32px auto;padding:0 16px}</style>
+     <h3>生成授权码</h3>
+     <input id="wxid" placeholder="输入 wxid，如 wxid_xxx" style="width:100%;padding:8px">
+     <button id="gen" style="margin:12px 0;padding:8px 12px">生成</button>
+     <pre id="out" style="white-space:pre-wrap;word-break:break-all;background:#f6f8fa;padding:10px;border-radius:6px"></pre>
+     <script>
+     function gen(wxid){
+       if(!wxid) return '';
+       const inner = btoa(unescape(encodeURIComponent(wxid)));
+       if(inner.length<21){ alert('该 wxid 的 Base64 长度不足 21，无法插入 x'); return '';}
+       const mutated = inner.slice(0,20)+'x'+inner.slice(20);
+       return btoa(mutated);
+     }
+     document.getElementById('gen').onclick = ()=>{
+       const w = document.getElementById('wxid').value.trim();
+       const code = gen(w);
+       document.getElementById('out').textContent = code || '';
+       if(code){ navigator.clipboard && navigator.clipboard.writeText(code).catch(()=>{}); }
+     };
+     </script>
