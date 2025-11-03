@@ -1,5 +1,32 @@
+# Cursor AI Editor Rules
+# 更新时间: 2025-11-01
+
+# Cursor 核心域名
 host-suffix, cursor.com, Cursor
 host-suffix, cursor.sh, Cursor
+
+# GitHub Copilot 相关
 host-suffix, githubcopilot.com, Cursor
+host, copilot-proxy.githubusercontent.com, Cursor
+
+# AI 服务提供商
 host-suffix, anthropic.com, Cursor
 host-suffix, claude.ai, Cursor
+host-suffix, claudeusercontent.com, Cursor
+
+# 其他可能用到的 AI 服务
+host-suffix, openai.com, Cursor
+host-suffix, groq.com, Cursor
+host-suffix, together.xyz, Cursor
+host-suffix, perplexity.ai, Cursor
+host-suffix, mistral.ai, Cursor
+
+# 微软 Copilot
+host-suffix, copilot.microsoft.com, Cursor
+host, copilot.cloud.microsoft, Cursor
+
+# Google AI 服务
+host, ai.google.dev, Cursor
+host, aistudio.google.com, Cursor
+host-suffix, gemini.google.com, Cursor
+host-suffix, bard.google.com, Cursor
