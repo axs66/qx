@@ -1,12 +1,14 @@
-[filter_remote]
-https://raw.githubusercontent.com/axs66/qx/refs/heads/main/cursor.plist, tag=Cursor Rules, force-policy=Cursor, enabled=true
-
-[policy]
-static=Cursor, proxy, 🇺🇸 US Nodes, 🇭🇰 HK Nodes, direct, img-url=https://example.com/cursor.png
-
-[filter_local]
-host-suffix, cursor.com, Cursor
-host-suffix, cursor.sh, Cursor
-host-suffix, githubcopilot.com, Cursor
-host-suffix, anthropic.com, Cursor
-host-suffix, claude.ai, Cursor
+# NAME: GlobalMedia
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-11-02 02:08:11
+# HOST: 36
+# HOST-KEYWORD: 26
+# HOST-SUFFIX: 1272
+# HOST-WILDCARD: 10
+# IP-CIDR: 918
+# IP6-CIDR: 6
+# USER-AGENT: 69
+# TOTAL: 2337
+HOST,ai.google.dev,GlobalMedia
+HOST,aistudio.google.com,GlobalMedia
