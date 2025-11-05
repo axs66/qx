@@ -1,21 +1,32 @@
      <!doctype html><meta charset="utf-8"><title>Auth Code Generator</title>
      <style>body{font:16px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto;max-width:680px;margin:32px auto;padding:0 16px}</style>
-     <h3>生成授权码</h3>
-     <input id="wxid" placeholder="输入 wxid，如 wxid_xxx" style="width:100%;padding:8px">
-     <button id="gen" style="margin:12px 0;padding:8px 12px">生成</button>
-     <pre id="out" style="white-space:pre-wrap;word-break:break-all;background:#f6f8fa;padding:10px;border-radius:6px"></pre>
-     <script>
-     function gen(wxid){
-       if(!wxid) return '';
-       const inner = btoa(unescape(encodeURIComponent(wxid)));
-       if(inner.length<21){ alert('该 wxid 的 Base64 长度不足 21，无法插入 x'); return '';}
-       const mutated = inner.slice(0,20)+'x'+inner.slice(20);
-       return btoa(mutated);
-     }
-     document.getElementById('gen').onclick = ()=>{
-       const w = document.getElementById('wxid').value.trim();
-       const code = gen(w);
-       document.getElementById('out').textContent = code || '';
-       if(code){ navigator.clipboard && navigator.clipboard.writeText(code).catch(()=>{}); }
-     };
-     </script>
+    <h3>生成授权码</h3>
+    <input id="wxid" placeholder="输入用户ID（可以是wxid_xxx或其他格式）" style="width:100%;padding:8px">
+    <button id="gen" style="margin:12px 0;padding:8px 12px">生成</button>
+    <pre id="out" style="white-space:pre-wrap;word-break:break-all;background:#f6f8fa;padding:10px;border-radius:6px"></pre>
+    <script>
+    function gen(userID){
+      if(!userID) return '';
+      // 对用户ID进行Base64编码
+      let inner = btoa(unescape(encodeURIComponent(userID)));
+      
+      // 如果Base64编码后的长度不足21，需要填充
+      // 使用Base64有效字符'A'进行填充，确保长度至少21
+      const targetLength = 21;
+      if(inner.length < targetLength) {
+        const paddingLength = targetLength - inner.length;
+        // 在末尾填充'A'，使总长度达到21
+        inner = inner + 'A'.repeat(paddingLength);
+      }
+      
+      // 在位置20（索引20）插入'x'
+      const mutated = inner.slice(0,20)+'x'+inner.slice(20);
+      return btoa(mutated);
+    }
+    document.getElementById('gen').onclick = ()=>{
+      const w = document.getElementById('wxid').value.trim();
+      const code = gen(w);
+      document.getElementById('out').textContent = code || '';
+      if(code){ navigator.clipboard && navigator.clipboard.writeText(code).catch(()=>{}); }
+    };
+    </script>
