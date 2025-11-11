@@ -1,0 +1,54 @@
+# Cursor 专用分流规则（域名优先 → IP 段 → 兜底）
+# 说明：请把 CURSOR_PROXY / AI_PROXY 替换为你在 Loon 中的节点名，保留 DIRECT 表示直连。
+
+# Cursor 官方/核心域名
+DOMAIN-SUFFIX,cursor.com,CURSOR_PROXY
+DOMAIN-SUFFIX,cursor.sh,CURSOR_PROXY
+DOMAIN-SUFFIX,cursor.app,CURSOR_PROXY
+DOMAIN-SUFFIX,cursor.directory,CURSOR_PROXY
+
+# Cursor API / agent / repo / mcp / 静态托管
+DOMAIN-SUFFIX,api.cursor.sh,CURSOR_PROXY
+DOMAIN-SUFFIX,api2.cursor.sh,CURSOR_PROXY
+DOMAIN-SUFFIX,repo42.cursor.sh,CURSOR_PROXY
+DOMAIN-SUFFIX,repo.cursor.sh,CURSOR_PROXY
+DOMAIN-SUFFIX,mcp.cursor.sh,CURSOR_PROXY
+
+# WebSocket / 实时通道
+DOMAIN-KEYWORD,ws.cursor,CURSOR_PROXY
+DOMAIN-KEYWORD,wss.cursor,CURSOR_PROXY
+
+# AI 模型/上游（如需单独走模型加速节点）
+DOMAIN-SUFFIX,openai.com,AI_PROXY
+DOMAIN-SUFFIX,api.openai.com,AI_PROXY
+DOMAIN-SUFFIX,anthropic.com,AI_PROXY
+DOMAIN-SUFFIX,api.anthropic.com,AI_PROXY
+DOMAIN-SUFFIX,claude.ai,AI_PROXY
+DOMAIN-SUFFIX,replicate.com,AI_PROXY
+
+# GitHub & Raw content（通常直连；若被墙请改为 CURSOR_PROXY）
+DOMAIN-SUFFIX,githubusercontent.com,DIRECT
+DOMAIN-SUFFIX,github.com,DIRECT
+DOMAIN-SUFFIX,raw.githubusercontent.com,DIRECT
+DOMAIN-SUFFIX,api.github.com,DIRECT
+
+# 常见 CDN（直连）
+DOMAIN-SUFFIX,jsdelivr.net,DIRECT
+DOMAIN-SUFFIX,googleapis.com,DIRECT
+DOMAIN-SUFFIX,cloudflare.com,DIRECT
+
+# 更新 / 遥测 / 统计（默认直连）
+DOMAIN-SUFFIX,update.cursor.com,DIRECT
+DOMAIN-SUFFIX,telemetry.cursor.com,DIRECT
+
+# 本地网段直连
+IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,127.0.0.0/8,DIRECT
+
+# 广告 / 跟踪（如需屏蔽可改为 REJECT 或 BLOCK）
+DOMAIN-KEYWORD,ads,REJECT
+DOMAIN-KEYWORD,analytics,REJECT
+
+# 兜底：先尝试直连（若你希望默认走代理，改为 FINAL,CURSOR_PROXY）
+FINAL,DIRECT
