@@ -1,117 +1,130 @@
-     <!doctype html><meta charset="utf-8"><title>Auth Code Generator</title>
-     <style>
-      body{font:16px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto;max-width:680px;margin:32px auto;padding:0 16px}
-      @media (max-width: 600px) {
-        #codeContainer > div:first-child {
-          flex-direction: column;
-        }
-        #copyBtn {
-          width: 100%;
-          margin-top: 8px;
-        }
-      }
-    </style>
-    <h3>生成授权码</h3>
-    <input id="wxid" placeholder="输入用户ID（可以是wxid_xxx或其他格式）" style="width:100%;padding:8px">
-    <button id="gen" style="margin:12px 0;padding:8px 12px">生成</button>
-    <div id="codeContainer" style="display:none;margin-top:12px">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
-        <pre id="out" style="flex:1;white-space:pre-wrap;word-break:break-all;background:#f6f8fa;padding:10px;border-radius:6px;margin:0"></pre>
-        <button id="copyBtn" style="padding:8px 16px;white-space:nowrap;cursor:pointer;border:1px solid #ddd;background:#fff;border-radius:6px">复制</button>
-      </div>
-      <div id="copyTip" style="color:#28a745;font-size:14px;display:none">✓ 已复制到剪贴板</div>
-    </div>
-    <script>
-    function gen(userID){
-      if(!userID) return '';
-      // 对用户ID进行Base64编码
-      let inner = btoa(unescape(encodeURIComponent(userID)));
-      
-      // 如果Base64编码后的长度不足21，需要填充
-      // 使用Base64有效字符'A'进行填充，确保长度至少21
-      const targetLength = 21;
-      if(inner.length < targetLength) {
-        const paddingLength = targetLength - inner.length;
-        // 在末尾填充'A'，使总长度达到21
-        inner = inner + 'A'.repeat(paddingLength);
-      }
-      
-      // 在位置20（索引20）插入'x'
-      const mutated = inner.slice(0,20)+'x'+inner.slice(20);
-      return btoa(mutated);
-    }
-    
-    // 兼容移动端Safari的复制函数
-    async function copyToClipboard(text) {
-      const tip = document.getElementById('copyTip');
-      try {
-        // 优先使用现代 Clipboard API（需要用户手势触发）
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          await navigator.clipboard.writeText(text);
-          showCopyTip();
-          return true;
-        }
-      } catch (err) {
-        // Clipboard API 失败，尝试备用方法
-      }
-      
-      // 备用方法：使用临时文本域（兼容旧版Safari）
-      try {
-        const textarea = document.createElement('textarea');
-        textarea.value = text;
-        textarea.style.position = 'fixed';
-        textarea.style.left = '-9999px';
-        textarea.style.top = '0';
-        document.body.appendChild(textarea);
-        textarea.focus();
-        textarea.select();
-        
-        // 尝试使用 execCommand（已废弃但某些浏览器仍支持）
-        const success = document.execCommand('copy');
-        document.body.removeChild(textarea);
-        
-        if (success) {
-          showCopyTip();
-          return true;
-        }
-      } catch (err) {
-        // 备用方法也失败
-      }
-      
-      // 如果都失败，提示用户手动复制
-      alert('复制失败，请手动选择并复制授权码');
-      return false;
-    }
-    
-    function showCopyTip() {
-      const tip = document.getElementById('copyTip');
-      tip.style.display = 'block';
-      setTimeout(() => {
-        tip.style.display = 'none';
-      }, 2000);
-    }
-    
-    document.getElementById('gen').onclick = ()=>{
-      const w = document.getElementById('wxid').value.trim();
-      const code = gen(w);
-      const container = document.getElementById('codeContainer');
-      const out = document.getElementById('out');
-      
-      if(code) {
-        out.textContent = code;
-        container.style.display = 'block';
-        // 自动复制（如果支持）
-        copyToClipboard(code).catch(()=>{});
-      } else {
-        container.style.display = 'none';
-      }
-    };
-    
-    // 复制按钮点击事件
-    document.getElementById('copyBtn').onclick = async ()=>{
-      const code = document.getElementById('out').textContent;
-      if(code) {
-        await copyToClipboard(code);
-      }
-    };
-    </script>
+<!doctype html><meta charset="utf-8"><title>Auth Code Generator</title>
+<style>
+ body{font:16px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto;max-width:680px;margin:32px auto;padding:0 16px}
+ @media (max-width: 600px) {
+   #codeContainer > div:first-child {
+     flex-direction: column;
+   }
+   #copyBtn {
+     width: 100%;
+     margin-top: 8px;
+   }
+ }
+</style>
+<h3>生成授权码</h3>
+<input id="wxid" placeholder="输入用户ID（可以是wxid_xxx或其他格式）" style="width:100%;padding:8px">
+<button id="gen" style="margin:12px 0;padding:8px 12px">生成</button>
+<div id="codeContainer" style="display:none;margin-top:12px">
+ <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+   <pre id="out" style="flex:1;white-space:pre-wrap;word-break:break-all;background:#f6f8fa;padding:10px;border-radius:6px;margin:0"></pre>
+   <button id="copyBtn" style="padding:8px 16px;white-space:nowrap;cursor:pointer;border:1px solid #ddd;background:#fff;border-radius:6px">复制</button>
+ </div>
+ <div id="copyTip" style="color:#28a745;font-size:14px;display:none">✓ 已复制到剪贴板</div>
+</div>
+<script>
+const XOR_KEY = [0x17, 0x23, 0x35, 0x4F, 0x59, 0x6B, 0x7D];
+
+function toBase64(text) {
+ return btoa(unescape(encodeURIComponent(text)));
+}
+
+function xorBytes(charCodes) {
+ return charCodes.map((code, idx) => code ^ XOR_KEY[idx % XOR_KEY.length]);
+}
+
+function bytesToHex(bytes) {
+ return bytes.map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+function reverseString(str) {
+ return str.split('').reverse().join('');
+}
+
+function gen(userID){
+ if(!userID) return '';
+ const normalized = userID.trim();
+ if(!normalized) return '';
+ const base = toBase64(normalized);
+ const bytes = Array.from(base).map(ch => ch.charCodeAt(0));
+ const xored = xorBytes(bytes);
+ const hex = bytesToHex(xored);
+ const reversed = reverseString(hex);
+ const lenHex = bytes.length.toString(16).padStart(4, '0');
+ const payload = reversed + lenHex;
+ return btoa(payload);
+}
+
+// 兼容移动端Safari的复制函数
+async function copyToClipboard(text) {
+ const tip = document.getElementById('copyTip');
+ try {
+   // 优先使用现代 Clipboard API（需要用户手势触发）
+   if (navigator.clipboard && navigator.clipboard.writeText) {
+     await navigator.clipboard.writeText(text);
+     showCopyTip();
+     return true;
+   }
+ } catch (err) {
+   // Clipboard API 失败，尝试备用方法
+ }
+ 
+ // 备用方法：使用临时文本域（兼容旧版Safari）
+ try {
+   const textarea = document.createElement('textarea');
+   textarea.value = text;
+   textarea.style.position = 'fixed';
+   textarea.style.left = '-9999px';
+   textarea.style.top = '0';
+   document.body.appendChild(textarea);
+   textarea.focus();
+   textarea.select();
+   
+   // 尝试使用 execCommand（已废弃但某些浏览器仍支持）
+   const success = document.execCommand('copy');
+   document.body.removeChild(textarea);
+   
+   if (success) {
+     showCopyTip();
+     return true;
+   }
+ } catch (err) {
+   // 备用方法也失败
+ }
+ 
+ // 如果都失败，提示用户手动复制
+ alert('复制失败，请手动选择并复制授权码');
+ return false;
+}
+
+function showCopyTip() {
+ const tip = document.getElementById('copyTip');
+ tip.style.display = 'block';
+ setTimeout(() => {
+   tip.style.display = 'none';
+ }, 2000);
+}
+
+document.getElementById('gen').onclick = ()=>{
+ const w = document.getElementById('wxid').value.trim();
+ const code = gen(w);
+ const container = document.getElementById('codeContainer');
+ const out = document.getElementById('out');
+ 
+ if(code) {
+   out.textContent = code;
+   container.style.display = 'block';
+   // 自动复制（如果支持）
+   copyToClipboard(code).catch(()=>{});
+ } else {
+   container.style.display = 'none';
+ }
+};
+
+// 复制按钮点击事件
+document.getElementById('copyBtn').onclick = async ()=>{
+ const code = document.getElementById('out').textContent;
+ if(code) {
+   await copyToClipboard(code);
+ }
+};
+</script>
